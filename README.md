@@ -1,10 +1,6 @@
 # Splinter
 ## _An OSINT tool to scan subdomains of any websites_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 This project is a fork of subdomain scanner build by [@x4nth055](https://github.com/x4nth055)
 
 ## Installation
