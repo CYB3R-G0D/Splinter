@@ -10,7 +10,7 @@ Splinter requires python module _requests_
 clone or download the project
 
 ```sh
-git clone https://github.com/CYB3R-G0D/Splinter
+git clone https://github.com/CYB3R-G0D/Splinter.git
 ```
 
 Install _requests_
@@ -23,7 +23,7 @@ pip3 install requests
 
 Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
--l            | --wordlist    | Domain name to list subdomains of
+-l            | --wordlist    | Subdomains list
 -t            | --num-threads | Number of threads to use for subbrute bruteforce
 -o            | --output      | Save the results to text file
 -h            | --help        | show the help message and exit
@@ -45,3 +45,6 @@ Short Form    | Long Form     | Description
 * To list subdomains of specific domain and export result as text file:
 
 ``python main.py example.com -o filename.txt``
+
+## Screenshots
+![Gif](/screenshots/action.gif)
