@@ -10,7 +10,7 @@ Splinter requires python module _requests_
 clone or download the project
 
 ```sh
-git install 
+git clone https://github.com/CYB3R-G0D/Splinter
 ```
 
 Install _requests_
@@ -32,16 +32,16 @@ Short Form    | Long Form     | Description
 
 * To list all the basic options and switches use -h switch:
 
-```python sublist3r.py -h```
+```python main.py -h```
 
 * To list subdomains of specific domain:
 
-``python sublist3r.py example.com``
+``python main.py example.com``
 
 * To list subdomains of specific domain with custom subdomain list:
 
-``python sublist3r.py example.com -l subdomains.txt``
+``python main.py example.com -l subdomains.txt``
 
 * To list subdomains of specific domain and export result as text file:
 
-``python sublist3r.py example.com -o filename.txt``
+``python main.py example.com -o filename.txt``
